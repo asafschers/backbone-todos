@@ -1,6 +1,7 @@
 Backbone::Application.routes.draw do
 
   resources :todos
+  resources :tags
 
   root :to => "application#index"
 

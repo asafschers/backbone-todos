@@ -1,11 +1,15 @@
 source 'http://rubygems.org'
 
+gem 'rake', '~> 10.0.3'
+
 gem 'rails', '3.0.9'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'activerecord-jdbc-adapter'
+gem 'activerecord-jdbcpostgresql-adapter'
+gem 'jdbc-postgres'
 gem "jammit"
 
 # Use unicorn as the web server

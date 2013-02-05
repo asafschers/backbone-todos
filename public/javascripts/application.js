@@ -27,13 +27,18 @@ $(function(){
     // collection, when items are added or changed. Kick things off by
     // loading any preexisting todos that might be saved in *localStorage*.
     initialize: function() {
+
       this.input    = this.$("#new-todo");
 
       Todos.bind('add',   this.addOne, this);
       Todos.bind('reset', this.addAll, this);
-      Todos.bind('all',   this.render, this);
+      Todos.bind('all', this.render, this);
 
+      Tags.bind('reset', this.addAll_tags, this);
+
+      Tags.fetch();
       Todos.fetch();
+
     },
 
     // Re-rendering the App just means refreshing the statistics -- the rest
@@ -45,6 +50,16 @@ $(function(){
         done:       Todos.done().length,
         remaining:  Todos.remaining().length
       }));
+
+    },
+
+    // Re-rendering the App just means refreshing the statistics -- the rest
+    // of the app doesn't change.
+    render_tags: function() {
+
+        this.$('#todo-stats').html(JST.stats_tags_template({
+            total:      Tags.length
+        }));
     },
 
     // Add a single todo item to the list by creating a view for it, and
@@ -58,6 +73,19 @@ $(function(){
     addAll: function() {
       Todos.each(this.addOne);
     },
+
+
+      // Add a single tag item to the list by creating a view for it, and
+      // appending its element to the `<ul>`.
+      addOne_tags: function(tag) {
+          var view = new TagView({model: tag});
+          this.$("#todo-list").append(view.render().el);
+      },
+
+      // Add all items in the **Tags** collection at once.
+      addAll_tags: function() {
+          Tags.each(this.addOne_tags);
+      },
 
     // Generate the attributes for a new Todo item.
     newAttributes: function() {
@@ -98,6 +126,10 @@ $(function(){
 
   // Create our global collection of **Todos**.
   window.Todos = new window.TodoList;
+
+  // Create our global collection of **Tags**.
+  window.Tags = new window.TagList;
+
   // Finally, we kick things off by creating the **App**.
   window.App = new window.AppView;
 
