@@ -15,7 +15,9 @@ gem 'activerecord-jdbcpostgresql-adapter'
 gem 'jdbc-postgres'
 gem 'jammit'
 
-gem "twitter-bootstrap-rails"
+gem 'twitter-bootstrap-rails'
+
+gem 'puma'
 
 # Use unicorn as the web server
 # gem 'unicorn'
