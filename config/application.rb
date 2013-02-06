@@ -6,8 +6,6 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
-config.assets.initialize_on_precompile = false
-
 module Backbone
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
@@ -40,5 +38,7 @@ module Backbone
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    config.assets.initialize_on_precompile = false
   end
 end
