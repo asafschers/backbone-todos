@@ -37,6 +37,7 @@
     <orderEntry type="library" scope="PROVIDED" name="jammit (v0.6.5, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jdbc-postgres (v9.2.1002.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jruby-rack (v1.1.13.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.7.6, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.4.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.20.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
@@ -44,7 +45,6 @@
     <orderEntry type="library" scope="PROVIDED" name="open4 (v1.3.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="prototype-rails (v3.2.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="puma (v1.6.3, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-ssl (v1.3.3, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
@@ -59,6 +59,8 @@
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.14.6, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.3, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.12, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="trinidad (v1.4.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="trinidad_jars (v1.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="twitter-bootstrap-rails (v2.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.35, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="yui-compressor (v0.9.6, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
