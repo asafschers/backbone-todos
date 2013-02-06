@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19a0264b-0304-4387-b80b-824e6076ceff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="backbone.iws" />
@@ -43,7 +42,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="59" selection-start="90" selection-end="90" vertical-scroll-proportion="0.10638298">
+            <state line="18" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.63829786">
               <folding />
             </state>
           </provider>
@@ -990,7 +989,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="59" selection-start="90" selection-end="90" vertical-scroll-proportion="0.10638298">
+        <state line="18" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.63829786">
           <folding />
         </state>
       </provider>
