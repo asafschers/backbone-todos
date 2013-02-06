@@ -1,5 +1,8 @@
 source 'http://rubygems.org'
 
+
+ruby '1.8.7', :engine => 'jruby', :engine_version => '1.6.7.2'
+
 gem 'rake', '~> 10.0.3'
 
 gem 'rails', '3.0.9'
@@ -10,7 +13,7 @@ gem 'rails', '3.0.9'
 gem 'activerecord-jdbc-adapter'
 gem 'activerecord-jdbcpostgresql-adapter'
 gem 'jdbc-postgres'
-gem "jammit"
+gem 'jammit'
 
 # Use unicorn as the web server
 # gem 'unicorn'
