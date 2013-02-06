@@ -17,7 +17,7 @@ gem 'jammit'
 gem 'prototype-rails'
 
 gem 'twitter-bootstrap-rails'
-gem 'trinidad'
+gem 'trinidad', require: nil
 gem 'therubyrhino'
 
 # Use unicorn as the web server
