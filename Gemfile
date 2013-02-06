@@ -17,7 +17,7 @@ gem 'jammit'
 
 gem 'twitter-bootstrap-rails'
 gem 'puma'
-
+gem 'therubyrhino'
 
 # Use unicorn as the web server
 # gem 'unicorn'
