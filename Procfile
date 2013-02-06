@@ -1,1 +1,1 @@
-web: bin/trinidad --threadsafe --rackup -p $PORT -e $RACK_ENV
+web: bundle exec rails server puma -p $PORT -e $RACK_ENV

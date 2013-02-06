@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19a0264b-0304-4387-b80b-824e6076ceff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/backbone.iml" afterPath="$PROJECT_DIR$/.idea/backbone.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
     </list>
     <ignored path="backbone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,19 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+            <state line="4" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.13071896">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="30" selection-start="805" selection-end="805" vertical-scroll-proportion="0.62091506">
+            <state line="19" column="30" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +64,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="2" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +91,7 @@
       <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+            <state line="0" column="56" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,11 +151,11 @@
         <option value="$PROJECT_DIR$/public/javascripts/app/views/templates/debug_template.jst" />
         <option value="$PROJECT_DIR$/public/javascripts/app/models/tag.js" />
         <option value="$PROJECT_DIR$/public/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -346,7 +343,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="IRB console.Rails console: backbone">
+  <component name="RunManager" selected="Rails.Development: backbone">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="backbone" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -727,15 +724,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.db:rollback" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.db:reset" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.db:drop" />
-      <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: backbone" />
-      <item index="5" class="java.lang.String" itemvalue="Rails.Development: backbone" />
-      <item index="6" class="java.lang.String" itemvalue="Rails.Production: backbone" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="0" class="java.lang.String" itemvalue="Rails.Development: backbone" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: backbone" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:rollback" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.db:reset" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:drop" />
+      <item index="8" class="java.lang.String" itemvalue="IRB console.Rails console: backbone" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -873,7 +870,27 @@
       <created>1360173991067</created>
       <updated>1360173991067</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add puma">
+      <created>1360176127052</created>
+      <updated>1360176127052</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add puma">
+      <created>1360176413065</created>
+      <updated>1360176413065</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add puma">
+      <created>1360176993514</created>
+      <updated>1360176993514</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add puma">
+      <created>1360177820205</created>
+      <updated>1360177820205</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add puma">
+      <created>1360178138949</created>
+      <updated>1360178138949</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1028,13 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="41" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.0">
@@ -1049,13 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="2" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/rails">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="24" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
@@ -1063,16 +1066,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+        <state line="19" column="30" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="805" selection-end="805" vertical-scroll-proportion="0.62091506">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="56" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.13071896">
           <folding />
         </state>
       </provider>

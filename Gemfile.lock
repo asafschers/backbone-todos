@@ -47,7 +47,6 @@ GEM
       yui-compressor (>= 0.9.3)
     jdbc-postgres (9.2.1002.1)
     journey (1.0.4)
-    jruby-rack (1.1.13.1)
     json (1.7.6)
     json (1.7.6-java)
     mail (2.4.4)
@@ -60,6 +59,10 @@ GEM
     polyglot (0.3.3)
     prototype-rails (3.2.1)
       rails (~> 3.2)
+    puma (1.6.3)
+      rack (~> 1.2)
+    puma (1.6.3-java)
+      rack (~> 1.2)
     rack (1.4.4)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -97,10 +100,6 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
-    trinidad (1.4.4)
-      jruby-rack (>= 1.1.10)
-      trinidad_jars (>= 1.1.0)
-    trinidad_jars (1.2.0)
     twitter-bootstrap-rails (2.2.0)
       actionpack (>= 3.1)
       execjs
@@ -119,8 +118,8 @@ DEPENDENCIES
   jammit
   jdbc-postgres
   prototype-rails
+  puma
   rails (= 3.2.0)
   rake (~> 10.0.3)
   therubyrhino
-  trinidad
   twitter-bootstrap-rails
