@@ -21,6 +21,8 @@ gem 'twitter-bootstrap-rails'
 gem 'puma'
 gem 'therubyrhino'
 
+gem 'closure-compiler', group: :assets
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

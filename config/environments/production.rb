@@ -51,4 +51,6 @@ Backbone::Application.configure do
   STDOUT.sync = true
   config.logger = Logger.new(STDOUT)
 
+  config.assets.js_compressor = :closure
+
 end
