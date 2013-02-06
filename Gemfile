@@ -4,7 +4,7 @@ ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
 gem 'rake', '~> 10.0.3'
 
-gem 'rails', '3.0.9'
+gem 'rails', '3.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -13,6 +13,8 @@ gem 'activerecord-jdbc-adapter'
 gem 'activerecord-jdbcpostgresql-adapter'
 gem 'jdbc-postgres'
 gem 'jammit'
+
+gem 'prototype-rails'
 
 gem 'twitter-bootstrap-rails'
 gem 'trinidad'
