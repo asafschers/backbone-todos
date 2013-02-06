@@ -1,1 +1,1 @@
-web: rails server Puma -p $PORT -e $RACK_ENV
+web: bin/trinidad -t -r -p $PORT -e $RACK_ENV

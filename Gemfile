@@ -1,7 +1,5 @@
 source 'http://rubygems.org'
 
-require 'bundler/setup'
-
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
 gem 'rake', '~> 10.0.3'
@@ -17,7 +15,7 @@ gem 'jdbc-postgres'
 gem 'jammit'
 
 gem 'twitter-bootstrap-rails'
-gem 'puma'
+gem 'trinidad'
 gem 'therubyrhino'
 
 # Use unicorn as the web server
