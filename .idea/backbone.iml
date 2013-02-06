@@ -45,7 +45,7 @@
     <orderEntry type="library" scope="PROVIDED" name="open4 (v1.3.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="prototype-rails (v3.2.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-ssl (v1.3.3, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
