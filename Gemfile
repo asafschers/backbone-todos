@@ -16,7 +16,6 @@ gem 'jdbc-postgres'
 gem 'jammit'
 
 gem 'twitter-bootstrap-rails'
-gem 'therubyrhino'
 gem 'puma'
 
 

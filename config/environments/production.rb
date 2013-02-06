@@ -38,7 +38,7 @@ Backbone::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Enable threaded mode
-   config.threadsafe!
+  # config.threadsafe!
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found)
@@ -47,8 +47,6 @@ Backbone::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
-  config.serve_static_assets = true
-  STDOUT.sync = true
-  config.logger = Logger.new(STDOUT)
+
 
 end
