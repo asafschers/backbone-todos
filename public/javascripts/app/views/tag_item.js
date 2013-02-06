@@ -32,7 +32,6 @@ window.TagView = Backbone.View.extend({
         this.input.val(name);
     },
 
-
     // Remove this view from the DOM.
     remove: function() {
         $(this.el).remove();

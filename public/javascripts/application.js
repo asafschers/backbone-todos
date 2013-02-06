@@ -20,7 +20,8 @@ $(function(){
     events: {
       "keypress #new-todo":  "createOnEnter",
       "keyup #new-todo":     "showTooltip",
-      "click .todo-clear a": "clearCompleted"
+      "click .todo-clear a": "clearCompleted",
+      "click div.tag-content":  "tagFilter"
     },
 
     // At initialization we bind to the relevant events on the `Todos`
@@ -53,14 +54,18 @@ $(function(){
 
     },
 
-    // Re-rendering the App just means refreshing the statistics -- the rest
-    // of the app doesn't change.
-    render_tags: function() {
+      // 1. access tag name from todos rendering function.
+      // 2. filter todos by tag name.
+      tagFilter: function(e){
 
-        this.$('#todo-stats').html(JST.stats_tags_template({
-            total:      Tags.length
-        }));
-    },
+          // get tag name
+          id = $(e.target).text();
+
+          // debug
+          this.$('#todo-stats').html(JST.debug_template({
+            ID:    id
+          }));
+      },
 
     // Add a single todo item to the list by creating a view for it, and
     // appending its element to the `<ul>`.
@@ -79,7 +84,7 @@ $(function(){
       // appending its element to the `<ul>`.
       addOne_tags: function(tag) {
           var view = new TagView({model: tag});
-          this.$("#todo-list").append(view.render().el);
+          this.$("#tag-list").append(view.render().el);
       },
 
       // Add all items in the **Tags** collection at once.
