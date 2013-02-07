@@ -53,4 +53,6 @@ Backbone::Application.configure do
 
   config.assets.js_compressor = :closure
 
+  config.assets.precompile
+
 end
