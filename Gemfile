@@ -7,6 +7,8 @@ gem 'rake', '~> 10.0.3'
 gem 'rails', '3.2.0'
 gem 'rack', '1.4.1'
 
+gem 'sprockets', '~> 2.0'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
