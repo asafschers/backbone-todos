@@ -5,7 +5,7 @@ ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 gem 'rake', '~> 10.0.3'
 
 gem 'rails', '3.2.0'
-gem 'rack', '1.4.1'
+gem 'jruby-rack', '1.1.12'
 
 gem 'sprockets', '~> 2.0'
 

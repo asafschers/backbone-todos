@@ -41,7 +41,7 @@
     <orderEntry type="library" scope="PROVIDED" name="jdbc-postgres (v9.2.1002.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v2.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jruby-rack (v1.1.13.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jruby-rack (v1.1.12, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.7.6, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.4.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.20.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
