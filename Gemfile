@@ -20,8 +20,8 @@ gem 'jammit'
 gem 'prototype-rails'
 
 gem 'twitter-bootstrap-rails'
-gem 'trinidad', require: nil
-#gem 'puma'
+#gem 'trinidad', require: nil
+gem 'puma'
 gem 'therubyrhino'
 
 gem 'closure-compiler', group: :assets
