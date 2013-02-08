@@ -3,7 +3,6 @@ template_function: Handlebars.template
 
 javascripts:
   core:
-    - public/javascripts/jquery*.js
     - public/javascripts/underscore*.js
     - public/javascripts/handlebars*.js
     - public/javascripts/backbone.js

@@ -3,6 +3,10 @@
 // [LocalStorage adapter](backbone-localstorage.html)
 // to persist Backbone models within your browser.
 
+//= require jquery
+//= require jquery_ujs
+//= require jquery-ui
+
 // Load the application once the DOM is ready, using `jQuery.ready`:
 $(function(){
 
