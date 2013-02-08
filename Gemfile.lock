@@ -117,10 +117,6 @@ GEM
       jruby-rack (>= 1.1.10)
       trinidad_jars (>= 1.1.0)
     trinidad_jars (1.2.0)
-    twitter-bootstrap-rails (2.2.0)
-      actionpack (>= 3.1)
-      execjs
-      railties (>= 3.1)
     tzinfo (0.3.35)
     yui-compressor (0.9.6)
       POpen4 (>= 0.1.4)
@@ -145,4 +141,3 @@ DEPENDENCIES
   sprockets (~> 2.0)
   therubyrhino
   trinidad
-  twitter-bootstrap-rails
