@@ -40,5 +40,7 @@ module Backbone
     config.filter_parameters += [:password]
 
     config.assets.initialize_on_precompile = false
+
+    config.assets.enabled = true
   end
 end

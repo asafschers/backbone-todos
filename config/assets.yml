@@ -20,3 +20,5 @@ javascripts:
 stylesheets:
   application:
     - public/stylesheets/*.css
+
+package_path: jammit
