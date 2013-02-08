@@ -52,7 +52,7 @@ Backbone::Application.configure do
   config.logger = Logger.new(STDOUT)
 
   config.assets.js_compressor = :closure
-  config.assets.precompile
+  #config.assets.precompile
   #config.assets.compile = true
 
 end
