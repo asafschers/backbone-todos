@@ -67,7 +67,6 @@
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.12, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="trinidad (v1.4.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="trinidad_jars (v1.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="twitter-bootstrap-rails (v2.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.35, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="yui-compressor (v0.9.6, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
   </component>
