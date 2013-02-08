@@ -15,7 +15,6 @@ gem 'sprockets', '~> 2.0'
 gem 'activerecord-jdbc-adapter'
 gem 'activerecord-jdbcpostgresql-adapter'
 gem 'jdbc-postgres'
-gem 'jammit'
 
 gem 'prototype-rails'
 
