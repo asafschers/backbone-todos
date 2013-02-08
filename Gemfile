@@ -41,7 +41,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'jammit'
+#gem 'jammit'
 # Use unicorn as the web server
 # gem 'unicorn'
 
