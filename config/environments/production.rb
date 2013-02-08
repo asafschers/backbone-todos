@@ -55,4 +55,7 @@ Backbone::Application.configure do
   config.assets.precompile
   #config.assets.compile = true
 
+  # Enable the asset pipeline
+  config.assets.enabled = true
+
 end
