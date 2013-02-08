@@ -13,7 +13,7 @@ Backbone::Application.configure do
   config.action_dispatch.x_sendfile_header = "X-Sendfile"
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
-  config.serve_static_assets = false
+  config.serve_static_assets = true
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
@@ -62,15 +62,15 @@ Backbone::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
-  config.serve_static_assets = true
+
   STDOUT.sync = true
-  config.logger = Logger.new(STDOUT)
+  logger = Logger.new(STDOUT)
+  logger.level = Logger::INFO
+  config.logger = logger
 
   config.assets.js_compressor = :closure
-  config.assets.precompile
-  #config.assets.compile = true
 
   # Enable the asset pipeline
-  config.assets.enabled = true
+  # config.assets.enabled = true
 
 end
