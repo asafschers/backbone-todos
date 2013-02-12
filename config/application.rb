@@ -42,5 +42,7 @@ module Backbone
     config.assets.initialize_on_precompile = false
 
     config.assets.enabled = true
+
+    #config.ember.variant = :development
   end
 end

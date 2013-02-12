@@ -17,8 +17,8 @@ window.TagView = Backbone.View.extend({
 
     // Re-render the contents of the tag item.
     render: function() {
-        $(this.el).html(JST.tag_template(this.model.toJSON()));
-        //this.setContent();
+        //$(this.el).html(JST.tag_template(this.model.toJSON()));
+        this.setContent();
         return this;
     },
 

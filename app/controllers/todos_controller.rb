@@ -22,9 +22,19 @@ class TodosController < ApplicationController
 
     def update
 
+
       todo = Todo.find(params[:id])
 
-      todo.update_attributes! params
+      submission_hash = {"done" => params[:done],
+                         "content" => params[:content]}
+
+      #todo.update_attributes! params[:todo]
+      todo.update_attributes! submission_hash
+
+      #todo.update_attributes! params
+
+      logger.debug "todo attributes hash: #{todo.attributes.inspect}"
+
 
       render :json => todo
 

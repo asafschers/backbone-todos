@@ -1,5 +1,5 @@
 class Todo < ActiveRecord::Base
-  attr_accessible :content, :order, :done
+  attr_accessible :content, :order, :done, :id
   belongs_to :tag
 
   def to_json(options = {})

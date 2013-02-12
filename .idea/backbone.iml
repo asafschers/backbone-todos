@@ -16,8 +16,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="POpen4 (v0.1.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="Platform (v0.4.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v3.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v3.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
@@ -30,14 +28,12 @@
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.0.pre.7, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="closure-compiler (v1.1.8, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.4.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ejs (v1.0.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="handlebars_assets (v0.10.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jammit (v0.6.5, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jdbc-postgres (v9.2.1002.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v2.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
@@ -46,7 +42,6 @@
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.4.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.20.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.5.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="open4 (v1.3.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="prototype-rails (v3.2.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.1, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
@@ -68,7 +63,6 @@
     <orderEntry type="library" scope="PROVIDED" name="trinidad (v1.4.4, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="trinidad_jars (v1.2.0, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.35, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="yui-compressor (v0.9.6, RVM: jruby-1.7.2 [global]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

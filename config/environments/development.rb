@@ -22,5 +22,11 @@ Backbone::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+
+  #config.assets.paths << "#{ Rails.root }/app/assets/javascripts/app/assets/templates"
+  config.assets.paths << "#{ Rails.root }/app/views"
+  config.assets.paths << "#{ Rails.root }/app/images"
+
+  #config.active_record.whitelist_attributes = false
 end
 

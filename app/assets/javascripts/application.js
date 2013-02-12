@@ -7,6 +7,15 @@
 //= require jquery_ujs
 //= require jquery-ui
 
+//= require underscore
+//= require backbone
+
+//= require jammit_handlebars_templates.js
+//= require handlebars
+
+//= require_tree .
+
+
 // Load the application once the DOM is ready, using `jQuery.ready`:
 $(function(){
 
@@ -33,13 +42,14 @@ $(function(){
     // loading any preexisting todos that might be saved in *localStorage*.
     initialize: function() {
 
+
       this.input    = this.$("#new-todo");
 
       Todos.bind('add',   this.addOne, this);
       Todos.bind('reset', this.addAll, this);
       Todos.bind('all', this.render, this);
 
-      Tags.bind('reset', this.addAll_tags, this);
+      //Tags.bind('reset', this.addAll_tags, this);
 
       Tags.fetch();
       Todos.fetch();
@@ -50,11 +60,11 @@ $(function(){
     // of the app doesn't change.
     render: function() {
 
-      this.$('#todo-stats').html(JST.stats_template({
-        total:      Todos.length,
-        done:       Todos.done().length,
-        remaining:  Todos.remaining().length
-      }));
+    //  this.$('#todo-stats').html(JST.stats_template({
+    //    total:      Todos.length,
+    //    done:       Todos.done().length,
+    //    remaining:  Todos.remaining().length
+    //  }));
 
     },
 
@@ -66,9 +76,9 @@ $(function(){
           id = $(e.target).text();
 
           // debug
-          this.$('#todo-stats').html(JST.debug_template({
-            ID:    id
-          }));
+      //    this.$('#todo-stats').html(JST.debug_template({
+      //      ID:    id
+      //    }));
       },
 
     // Add a single todo item to the list by creating a view for it, and

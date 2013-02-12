@@ -1,3 +1,4 @@
+/*
 Handlebars.template = function(templateString) {
   return function () {
     if (arguments.length < 1) {
@@ -11,3 +12,4 @@ Handlebars.template = function(templateString) {
     }
   };
 };
+*/

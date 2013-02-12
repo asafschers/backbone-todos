@@ -19,7 +19,10 @@
 
     // Toggle the `done` state of this todo item.
     toggle: function() {
-      this.save({done: !this.get("done")});
+
+      var doneVal = !this.get("done");
+      this.save({"done": doneVal});
+      //this.save({"done": !this.get("done")});
     },
 
     // Remove this Todo from *localStorage* and delete its view.

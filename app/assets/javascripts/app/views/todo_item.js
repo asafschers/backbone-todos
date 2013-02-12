@@ -25,7 +25,18 @@
 
     // Re-render the contents of the todo item.
     render: function() {
-      $(this.el).html(JST.item_template(this.model.toJSON()));
+
+      //$(this.el).html(JST.item_template(this.model.toJSON()));
+      //if (this.model.done) $(this.el).html(HandlebarsTemplates['app/assets/templates/item_template']({ Todo: this.model.toJSON() }))
+        if (this.model.get("done"))
+        {
+                $(this.el).html(HandlebarsTemplates['app/assets/templates/item_template_done']({ Todo: this.model.toJSON() }))
+        }
+        else
+        {
+                $(this.el).html(HandlebarsTemplates['app/assets/templates/item_template_not_done']({ Todo: this.model.toJSON() }))
+        }
+
       this.setContent();
       return this;
     },
