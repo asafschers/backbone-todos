@@ -49,7 +49,7 @@ $(function(){
       Todos.bind('reset', this.addAll, this);
       Todos.bind('all', this.render, this);
 
-      //Tags.bind('reset', this.addAll_tags, this);
+      Tags.bind('reset', this.addAll_tags, this);
 
       Tags.fetch();
       Todos.fetch();
@@ -75,6 +75,7 @@ $(function(){
           // get tag name
           id = $(e.target).text();
 
+          this.$('#todo-stats').html(HandlebarsTemplates['app/assets/templates/debug_template']({ ID: id }));
           // debug
       //    this.$('#todo-stats').html(JST.debug_template({
       //      ID:    id

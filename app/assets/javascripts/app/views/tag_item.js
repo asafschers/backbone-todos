@@ -18,6 +18,8 @@ window.TagView = Backbone.View.extend({
     // Re-render the contents of the tag item.
     render: function() {
         //$(this.el).html(JST.tag_template(this.model.toJSON()));
+        $(this.el).html(HandlebarsTemplates['app/assets/templates/tag_template']({ Tag: this.model.toJSON() }))
+
         this.setContent();
         return this;
     },
@@ -26,10 +28,10 @@ window.TagView = Backbone.View.extend({
     // we use `jQuery.text` to set the contents of the tag item.
     setContent: function() {
         var name = this.model.get('name');
-        this.$('.todo-content').text(name);
-        this.input = this.$('.todo-input');
-        this.input.bind('blur', _.bind(this.close, this));
-        this.input.val(name);
+        this.$('.tag-content').text(name);
+        //this.input = this.$('.todo-input');
+        //this.input.bind('blur', _.bind(this.close, this));
+        //this.input.val(name);
     },
 
     // Remove this view from the DOM.
