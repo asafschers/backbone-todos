@@ -70,6 +70,9 @@ Backbone::Application.configure do
 
   config.assets.js_compressor = :closure
 
+  Tag.create!(:name => "tag a")
+  Tag.create!(:name => "tag b")
+
   # Enable the asset pipeline
   # config.assets.enabled = true
 
