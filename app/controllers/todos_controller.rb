@@ -22,7 +22,6 @@ class TodosController < ApplicationController
 
     def update
 
-
       todo = Todo.find(params[:id])
 
       submission_hash = {"done" => params[:done],
