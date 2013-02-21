@@ -33,11 +33,6 @@ window.TagList = Backbone.Collection.extend({
 
     // Reference to this collection's model.
     model: Tag,
-    url :'/tags',
-
-    // Filter down the list according to tag name.
-    done: function(tag_name) {
-        return this.filter(function(tag_name){ /* return tag todos */ });
-    }
+    url :'/tags'
 
 });

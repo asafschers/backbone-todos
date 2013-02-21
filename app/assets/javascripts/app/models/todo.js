@@ -54,6 +54,14 @@
       return this.without.apply(this, this.done());
     },
 
+    // Filter down the list of all todo items with certain tag
+    tag_filter: function(tag_name) {
+
+      return this.filter(function(todo){
+              if (Tags.get(todo.get('tag_id')).get('name') == tag_name)
+                  return todo; });
+    },
+
     // We keep the Todos in sequential order, despite being saved by unordered
     // GUID in the database. This generates the next order number for new items.
     nextOrder: function() {

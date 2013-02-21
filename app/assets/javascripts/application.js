@@ -28,6 +28,7 @@ $(function(){
     // Instead of generating a new element, bind to the existing skeleton of
     // the App already present in the HTML.
     el: $("#todoapp"),
+    selected_tag: null,
 
     // Delegated events for creating new items, and clearing completed ones.
     events: {
@@ -42,6 +43,15 @@ $(function(){
     // loading any preexisting todos that might be saved in *localStorage*.
     initialize: function() {
 
+      selected_tag = "all"
+
+      Tags.fetch({
+          success: function () {
+
+              Todos.fetch();
+          }
+      });
+
 
       this.input    = this.$("#new-todo");
 
@@ -50,9 +60,6 @@ $(function(){
       Todos.bind('all', this.render, this);
 
       Tags.bind('reset', this.addAll_tags, this);
-
-      Tags.fetch();
-      Todos.fetch();
 
     },
 
@@ -68,30 +75,35 @@ $(function(){
 
     },
 
-      // 1. access tag name from todos rendering function.
-      // 2. filter todos by tag name.
       tagFilter: function(e){
 
           // get tag name
-          id = $(e.target).text();
+          selected_tag = $(e.target).text();
 
-          this.$('#todo-stats').html(HandlebarsTemplates['app/assets/templates/debug_template']({ ID: id }));
-          // debug
-      //    this.$('#todo-stats').html(JST.debug_template({
-      //      ID:    id
-      //    }));
+          // 1. add all button
+
+          this.addAll();
+          this.$('#todo-stats').html(HandlebarsTemplates['app/assets/templates/debug_template']({ ID: selected_tag }));
+
       },
 
     // Add a single todo item to the list by creating a view for it, and
     // appending its element to the `<ul>`.
     addOne: function(todo) {
-      var view = new TodoView({model: todo});
-      this.$("#todo-list").append(view.render().el);
+
+          var view = new TodoView({model: todo});
+          this.$("#todo-list").append(view.render().el);
+
     },
 
     // Add all items in the **Todos** collection at once.
+    //addAll: function() {
     addAll: function() {
-      Todos.each(this.addOne);
+
+      //Todos.each(this.addOne);
+        this.$("#todo-list").empty()
+      _.each(Todos.tag_filter(selected_tag),  this.addOne );
+
     },
 
 
